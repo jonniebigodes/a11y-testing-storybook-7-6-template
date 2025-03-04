@@ -6035,6 +6035,7 @@ __metadata:
     "@types/react-dom": "npm:^18.3.0"
     "@types/react-syntax-highlighter": "npm:^15.5.11"
     "@vitejs/plugin-react": "npm:^4.3.1"
+    chromatic: "npm:10.2.0"
     eslint: "npm:^9.9.1"
     eslint-plugin-react-hooks: "npm:^5.1.0-rc.0"
     eslint-plugin-react-refresh: "npm:^0.4.11"
@@ -6055,6 +6056,17 @@ __metadata:
     vite: "npm:^4.4.5"
   languageName: unknown
   linkType: soft
+
+"chromatic@npm:10.2.0":
+  version: 10.2.0
+  resolution: "chromatic@npm:10.2.0"
+  bin:
+    chroma: dist/bin.js
+    chromatic: dist/bin.js
+    chromatic-cli: dist/bin.js
+  checksum: 10c0/e7716fc7a7fbd33b525c48888ccd3ee75ec56c4f360eba2972eb7a9d42efff025fbb4a1877173eb0d916f0bc9cdab1a8e8dac615c5b35ac270cd5a8ab5f931eb
+  languageName: node
+  linkType: hard
 
 "ci-info@npm:^3.2.0":
   version: 3.9.0
